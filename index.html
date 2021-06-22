@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title> Inicio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilo Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+</head>
+<body id='body' class="light">
+<header>
+         <nav id="nav" class="Nav">
+              <ul>
+                <li><h1>Calorías app</h1></li>
+                <li>
+                <input type="checkbox" class="checkbox" id="chk" />
+                <label class="images" id="images" for="chk">
+                <image id="logoW" class="logo_white" type=image src="images/luna blanca.png">
+                <image  id="logoB" class="logo_black" type=image src="images/lunarellena.png">
+                </label>
+                </li>
+              </ul>
+         </nav>
+</header>
+
+<div id='container' class='container'>
+    <div id="container_rigth" class="container_rigth">
+      <div class="menu">
+        <div class="items">
+        <span id="value">0</span>
+        <input id="piza" class="pizza" type=image src="images/pizza.png">
+        <input type="checkbox" value="220" class="checkbox" />
+        </div>
+        <div class="items">
+        <span id="value">1</span>
+        <input id="hambur" class="pizza" type=image  src="images/hambur.png">
+        <input type="checkbox"  value="200"  class="checkbox" />
+        </div>
+        <div class="items">
+        <span id="value">2</span>
+        <input id="soda" class="pizza" type=image   src="images/soda.png">
+        <input type="checkbox" class="checkbox" />
+        </div>
+        <div class="items">
+        <span id="value">3</span>
+        <input id="sorbete" class="pizza" type=image  src="images/sorbete.png">
+        <input type="checkbox" class="checkbox"/>
+        </div>
+      </div>
+    </div>
+    <div id="div-numcal-id" class="div-numcal">
+    <h2>Calorías totales</h2>
+    <div id="num_cal" class="num_cal">
+    0
+    </div>
+    <span>calorias</span>
+    </div>
+</div>
+</body>
+  <!-- Script -->
+  <script  src="js/proceso.js"></script>
+  <script  src="js/array.js"></script>
+</html>

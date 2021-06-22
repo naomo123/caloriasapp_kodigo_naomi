@@ -1,0 +1,171 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #f2f2f2;
+}
+/*CLASES NUEVAS*/
+body.dark {
+	background: #292C35;
+  color: white;
+}
+.clase_color{color: white;}
+
+header {
+  border:5px transparent;
+  border-radius: 6px;
+  overflow:hidden;
+  width:100%;
+  border:5px transparent;
+  border-radius: 6px;
+  height: 100px;
+  background: rgb(217, 217, 255);
+  text-transform:uppercase;
+ }
+nav > ul {
+   display: flex;
+   justify-content: center;
+   list-style: none;
+   margin: 10px;
+   text-align: center;
+ }
+nav  ul  h1 {
+  float: inline-start;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  margin: 5px;
+}
+.checkbox{
+   visibility: hidden;
+   text-decoration: none;
+   position: relative;
+ }
+.logo_white {
+   height: 50px;
+   width: 50px;
+   text-decoration: none;
+ }
+.logo_black{
+   height: 50px;
+   width: 50px;
+   text-decoration: none;
+   display: none;
+ }
+.hide{
+  display: none;
+}
+.show{
+  display: block;
+}
+.container
+{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
+  align-content:center;
+  width: auto;
+}
+.container_rigth{
+  order:0;
+  flex:0 1 auto;
+  justify-content: flex-start;
+  height:auto;
+  width:759.6px;
+  margin:10px;
+
+ }
+.div-numcal{
+  order:0;
+  flex:0 1 auto;
+  height:400px;
+  width:400px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 25px;
+  margin-left: 50px;
+ }
+.menu{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:unset;
+  height:auto;
+ }
+.items{
+  order:0;
+  flex:0 1 auto;
+  align-self:auto;
+  height:300px;
+  width:300px;
+  margin: 20px;
+  border: 5px solid rgb(192, 192, 192);
+  border-radius: 10px;
+ }
+.selection_background{
+  background: rgb(255, 187, 0);
+}
+span
+{
+  position: relative;
+  left:-2000px;
+}
+  .pizza{
+  height:280px;
+  width:280px;
+  margin:10px;
+ }
+@media (max-width: 1400px)  {
+
+.container
+{
+
+  display:flex;
+  flex-direction:column-reverse;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+  align-items:center;
+  align-content:center;
+  padding-bottom: 100px;
+  padding-top: 100px;
+
+}
+.container_rigth{
+  order:0;
+  flex:0 1 auto;
+  height:auto;
+  width:auto;
+  margin:10px;
+  justify-content: center;
+
+ }
+
+ .div-numcal{
+  order:0;
+  flex:0 1 auto;
+  text-align: center;
+  margin-left:10px ;
+  width: auto;
+  height: auto;
+  margin: 20px;
+ }
+
+ .menu{
+   display:flex;
+   flex-direction:row;
+   flex-wrap:wrap;
+   justify-content:center;
+   align-items:unset;
+   height:auto;
+ }
+
+ nav ul h1 {
+  float: inline-start;
+  font-size: 35px;
+  color: rgb(0, 0, 0);
+   }
+ }
